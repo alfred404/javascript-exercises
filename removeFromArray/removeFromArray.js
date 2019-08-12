@@ -1,5 +1,3 @@
-const removeFromArray = function (array, ...args) {
-    return array.filter(x => !args.includes(x));
-}
+const removeFromArray = (array, ...args) => array.filter((x) => !args.includes(x));
 
-module.exports = removeFromArray
+module.exports = removeFromArray;
